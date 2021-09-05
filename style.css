@@ -1,0 +1,86 @@
+:root {
+    background-color:#1C1C1C;
+}
+
+body {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#wrapper {
+    width: 460px;
+    margin: 0 auto;
+}
+
+.upperGrid {
+    display: grid;
+    grid-auto-flow: column;
+    width: 460px;
+    grid-gap: 20px;
+    margin: 10px 0px 20px 0px;
+}
+
+
+.bigButton {
+    background-color: #D4D4D2;
+    color: #1C1C1C;
+    border-radius: 50px;
+    border-width: 0px;
+    font-size: 30px;
+    height: 100px;
+}
+
+.operateButt {
+    background-color: #FF9500;
+}
+
+.calculatorGrid {
+    display: grid;
+    width: 460px;
+    height: 360px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.button {
+    -webkit-appearance: none;
+    width: 100px;
+    height: 100px;
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    border-radius: 50px;
+    border-width: 0px;
+}
+
+.opButton {
+    background-color: #FF9500;
+}
+
+.numButton {
+    background-color: #505050;
+}
+
+.display {
+    -webkit-appearance: none;
+    float: center;
+    width: 460px;
+    margin: 20px 0 20px 0;
+    border: none;
+    text-align: right;
+    font-family: sans-serif;
+    color: white;
+}
+
+.displayText {
+    -webkit-appearance: none;
+    text-align: right;
+    font-size: 40px;
+    min-height: 64px;
+}
+
+.lastDisplay {
+    text-align: right;
+    font-size: 20px;
+    min-height: 32px;
+}
